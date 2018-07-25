@@ -26,3 +26,4 @@ for i in range(5001):
     if i % 500 == 0:
         print(i, sess.run(cost, feed_dict={X: xData, Y: yData}), sess.run(W), sess.run(b))
 print(sess.run(H, feed_dict={X: [8]}))
+ 
